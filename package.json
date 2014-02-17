@@ -1,0 +1,21 @@
+//tells you exactly what you need to get installed by NPM
+// also has info like what version of node you're running, etc.
+//javascript object notation
+//everything in {} is an object (javascript object notation)
+//engines tells heroku what version of node/npm you're running
+//can add new installations here under dependencies and have heroku manage it
+
+{
+	"name": "Class4Tutorial",
+	"description": "Doing this in class",
+	"version": "0.0.1",
+	"author": "Stefanie Van R",
+	"engines": {
+		"node": "0.10.x",
+		"npm": "1.3.x"
+	},
+	"dependencies": {
+		"express": "latest",
+		"ejs": "latest"
+	}
+}
